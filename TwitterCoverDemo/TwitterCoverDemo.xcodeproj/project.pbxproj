@@ -37,6 +37,7 @@
 		4DACEDD4195BCAC0009EE34F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DACEDC4195BCAC0009EE34F /* UIImage+MultiFormat.m */; };
 		4DACEDD5195BCAC0009EE34F /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DACEDC6195BCAC0009EE34F /* UIImage+WebP.m */; };
 		4DACEDD6195BCAC0009EE34F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DACEDC8195BCAC0009EE34F /* UIImageView+WebCache.m */; };
+		4DACEDD8195BCDC7009EE34F /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DACEDD7195BCDC7009EE34F /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		4DACEDC6195BCAC0009EE34F /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
 		4DACEDC7195BCAC0009EE34F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		4DACEDC8195BCAC0009EE34F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4DACEDD7195BCDC7009EE34F /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		4DACEBDE195BC94C009EE34F /* TwitterCoverDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DACEDD7195BCDC7009EE34F /* image.jpg */,
 				4DACEDAB195BCAC0009EE34F /* SDWebImage */,
 				4DACEC0C195BC99F009EE34F /* TwitterCover */,
 				4DACEBE7195BC94C009EE34F /* AppDelegate.h */,
@@ -327,6 +330,7 @@
 				4DACEBE3195BC94C009EE34F /* InfoPlist.strings in Resources */,
 				4DACEC0B195BC96D009EE34F /* ViewController.xib in Resources */,
 				4DACEBEB195BC94C009EE34F /* Images.xcassets in Resources */,
+				4DACEDD8195BCDC7009EE34F /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +563,7 @@
 				4DACEC03195BC94C009EE34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DACEC04195BC94C009EE34F /* Build configuration list for PBXNativeTarget "TwitterCoverDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +572,7 @@
 				4DACEC06195BC94C009EE34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
