@@ -12,7 +12,7 @@ UIScrollview方便添加Path景深效果的category
 #import "UIScrollView+TwitterCover.h"
 ```
 
-###Step 2，
+###Step 2，添加到scrollview上
 
 ```obj-c
      UIImageView *topImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 180)];
